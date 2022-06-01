@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+		
+* {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%; }
+ body {
+	font-weight: normal;
+	font-style: normal; }
+	
+div {
+	width: 50%;
+		max-width: 800px;
+	min-width: 200px;
+	margin: 50px auto; }
+h1 {
+	font-family: 'Noto Sans', serif;
+	color: rgb(0, 0, 0); }
+p {
+	font-family: 'Noto Sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+	color: rgb(0, 0, 0); }
+body {
+	background: #304352;  
+	background: -webkit-linear-gradient(to left, #d7d2cc, #304352); 
+	background: linear-gradient(to left, #d7d2cc, #304352);   
+
+
+}
+.placementbutton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 15px; 
+}
+
+/* gestion design bouton*/
+
+button {
+    color: black ;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 0px solid #000000;
+    font-family: 'Oswald';
+    margin-top: 10px;
+    background-color: white;
+    text-align: center;
+    padding : 12px;
+    font-size: 12pt;
+    -webkit-box-shadow: 0px 0px 50px #000000;
+    -moz-box-shadow: 0px 0px 51px #000000;
+    box-shadow: 0px 0px 50px #000000;   
+}
+/* suppression affichage de base lien*/
+
+a:link, a:visited {
+	color: black;
+	text-decoration: none
+}
+
+/* animation lors passage de souris sur le lien*/
+
+a:hover {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    font-size: 14pt ;
+    
+}
